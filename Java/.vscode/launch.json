@@ -1,0 +1,104 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch std_changePass",
+            "request": "launch",
+            "mainClass": "std_changePass",
+            "projectName": "Java_5bcba8f3"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch initBoot",
+            "request": "launch",
+            "mainClass": "initBoot",
+            "projectName": "Java_5bcba8f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ins_listStudent",
+            "request": "launch",
+            "mainClass": "ins_listStudent",
+            "projectName": "Java_5bcba8f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ins_request",
+            "request": "launch",
+            "mainClass": "ins_request",
+            "projectName": "Java_5bcba8f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch institute",
+            "request": "launch",
+            "mainClass": "institute",
+            "projectName": "Java_5bcba8f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch std_certiList",
+            "request": "launch",
+            "mainClass": "std_certiList",
+            "projectName": "Java_5bcba8f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch std_profile",
+            "request": "launch",
+            "mainClass": "std_profile",
+            "projectName": "Java_5bcba8f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch std_upload",
+            "request": "launch",
+            "mainClass": "std_upload",
+            "projectName": "Java_5bcba8f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch student",
+            "request": "launch",
+            "mainClass": "student",
+            "projectName": "Java_5bcba8f3"
+        }
+    ]
+}
